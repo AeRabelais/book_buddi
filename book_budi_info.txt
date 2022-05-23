@@ -1,0 +1,73 @@
+Draft of Book Budi -
+
+Elements Include:
+1. Book
+    - title
+    - type
+    - year of publication
+    - rating    
+    - ownership_status
+    - rental_status
+
+2. Comic Book
+    - title
+    - type
+    - universe
+    - protagonist
+    - entry
+    - ownership 
+    - rental status
+
+3. Journals
+    - content type
+    - description
+    - date added
+    - date finished
+
+4. Shelf
+5. Author
+6. Illustrator
+7. Genre
+8. Type (fiction, non-fiction, textbook, etc.)
+9. Rental status
+10. Ownership status
+
+
+- class Book
+- class ComicBook
+- class Journal
+
+- class Shelf
+- class Author
+- class Illustrator
+
+- class Genre
+- class Type 
+
+- class Ownership status
+
+- class book_by_shelf
+- class comic_by_shelf
+
+- class book_by_author
+- class comic_by_author
+- class comic_by_illustrator
+
+- class book_by_genre
+- class comic_by_genre
+
+functionality:
+- add book
+- add comic 
+- add journal 
+- update book 
+- update comic 
+- update journal 
+- add from goodreads import
+- update from goodreads import
+- display all books 
+- display all comics 
+- display all journals
+- get book by attribute
+- get comic by attribute 
+- get journal by attribute 
